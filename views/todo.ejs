@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Todo List APP test</title>
+        <title>Todo List APP - Ashran Pathan</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -89,7 +89,7 @@
     </head>
 
     <body>
-        <h1>Hello PCU University STUDENTS and freinds , Write your Goals Below</h1>
+        <h1>Hello! I am Ashran Pathan, Write your Goals Below</h1>
         <ul>
             <% todolist.forEach(function(todo, index) { %>
             <li>
@@ -102,10 +102,16 @@
 
         <form action="/todo/add/" method="post">
             <p>
-                <label for="newtodo">What should I do?</label>
+                <label for="newtodo">What is your next task?</label>
                 <input type="text" name="newtodo" id="newtodo" autofocus />
-                <input type="submit" value="Add" />
+                <input type="submit" value="Add Task" />
             </p>
         </form>
+
+        <footer style="text-align:center; padding:20px;">
+            <p><strong>Ashran Pathan</strong></p>
+            <p>Pune, Maharashtra | +91-8483050125 | ashranpathan2025@gmail.com</p>
+            <p><a href="https://linkedin.com">LinkedIn</a> | <a href="https://github.com">GitHub</a> | <a href="https://leetcode.com">LeetCode</a> | <a href="https://geeksforgeeks.org">GeeksforGeeks</a></p>
+        </footer>
     </body>
-</html> 
+</html>
